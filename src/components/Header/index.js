@@ -10,6 +10,7 @@ import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 import { IoIosCart } from "react-icons/io";
 import { FaBell } from "react-icons/fa";
+import foto from "../../assets/images/jay.jpg";
 
 
 
@@ -114,7 +115,7 @@ const Header = () => {
                         >
                             <div className="userImg">
                                 <span className="rounded-circle">
-                                    <img src="/src/assets/images/jay.webp"/>
+                                    <img src={foto}/>
                                 </span>
                             </div>
 
