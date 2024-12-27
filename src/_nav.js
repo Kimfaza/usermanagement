@@ -3,11 +3,8 @@ import CIcon from '@coreui/icons-react'
 import {
   cilBell,
   cilCalculator,
-  cilChartPie,
   cilCursor,
-  cilDescription,
   cilDrop,
-  cilExternalLink,
   cilNotes,
   cilPencil,
   cilPuzzle,
@@ -22,10 +19,6 @@ const _nav = [
     name: 'Dashboard',
     to: '/dashboard',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
-    // badge: {
-    //   color: 'info',
-    //   text: 'NEW',
-    // },
   },
   {
     component: CNavTitle,
